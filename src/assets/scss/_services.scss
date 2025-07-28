@@ -1,0 +1,320 @@
+/* Service # 01 */
+
+.service-section {
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.single-service-item {
+  background: #fff;
+  padding: 50px 45px;
+
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  @media #{$xs} {
+    padding: 40px;
+  }
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: $theme-color;
+    background-size: cover;
+    background-position: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+  }
+
+  .service-icon img {
+    width: 60px;
+    height: auto;
+  }
+
+  .service-icon i:before {
+    font-size: 50px;
+    color: #c5853a;
+  }
+
+  h5 {
+    font-size: 22px;
+    margin: 30px 0 20px;
+  }
+  p {
+    color: #333;
+  }
+  &:hover {
+    &:before {
+      opacity: 0.5;
+      visibility: visible;
+      z-index: -1;
+    }
+  }
+
+  .read_more_link {
+    position: relative;
+    display: inline-block;
+    top: auto;
+    left: auto;
+    height: auto;
+    width: auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: $text_dark;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  .read_more_link .link_text {
+    position: relative;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 500;
+    text-indent: -110px;
+    visibility: hidden;
+    white-space: nowrap;
+    opacity: 0;
+    transition: visibility 0.4s ease, margin-right 0.4s ease-out,
+      text-indent 0.5s ease-out, opacity 0.4s ease;
+    will-change: visibility, margin-right, text-indent, opacity;
+  }
+
+  .read_more_link .link_icon i {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  &:hover .read_more_link .link_text {
+    opacity: 1;
+    text-indent: 0;
+    margin-right: 6px;
+    visibility: visible;
+    transition: visibility 0.4s ease, margin-right 0.3s ease-out,
+      text-indent 0.4s ease-out, opacity 0.4s ease;
+  }
+}
+
+// Service # 02
+
+#service-2 {
+  .service-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .service-bg {
+    position: relative;
+    z-index: 1;
+  }
+
+  .service-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #e7a85f;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-icon i:before {
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .service-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    z-index: 9;
+    padding: 30px;
+    margin: 5%;
+    width: 90%;
+    @media #{$md} {
+      padding: 16px;
+    }
+    h5 {
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      @media #{$md} {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .single-serv-item {
+    position: relative;
+    z-index: 1;
+    @media #{$md} {
+      margin-bottom: 30px;
+    }
+    @media #{$xs} {
+      margin-bottom: 30px;
+    }
+  }
+
+  .details-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    i {
+      font-size: 24px;
+      color: #c3863d;
+      transform: rotate(-45deg);
+    }
+    @media #{$md} {
+      display: none;
+    }
+    @media #{$xs} {
+      display: none;
+    }
+  }
+}
+
+/* Service # 03 */
+
+#service-3 {
+  .single-service-item {
+    &:before {
+      background: none;
+    }
+  }
+  .service-icon i:before {
+    font-size: 50px;
+    color: #c28640;
+  }
+}
+
+// Owl Dots Style
+
+.service-section .owl-dots button.owl-dot span {
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.service-section .owl-dots button.owl-dot.active span {
+  width: 35px;
+  height: 10px;
+  background: $theme-color;
+}
+
+.service-section .owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Service Details  */
+
+.service-details-area {
+  background: #f6f6f6;
+}
+
+.feature-img {
+  margin-bottom: 30px;
+  img {
+    width: 100%;
+  }
+}
+
+.service-details-wrap h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 20px 0;
+}
+
+.service-details-wrap p {
+  text-align: justify;
+}
+
+.service-details-img {
+  margin-bottom: 30px;
+}
+
+.sidebar-wrap {
+  padding: 45px 35px;
+  position: sticky;
+  top: 100px;
+  transition: top 0.3s ease;
+  @media #{$xs} {
+    padding: 45px 30px;
+  }
+  h5 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  input,
+  textarea {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding-left: 0;
+  }
+  textarea {
+    height: 150px;
+  }
+  form {
+    margin-top: 30px;
+  }
+}
+
+.sidebar-wrap input[type="submit"] {
+  width: 180px;
+  margin-top: 30px;
+}
+
+.contact-info {
+  margin-top: 50px;
+}
+
+.contact-list-item {
+  margin-top: 20px;
+  li {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    i {
+      position: absolute;
+      top: 2px;
+      left: 0;
+      font-size: 24px;
+      color: $theme_color;
+    }
+  }
+}
+
+.service-page {
+  .play-btn a i {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .play-btn {
+    background: $theme_color;
+    width: 90px;
+    height: 90px;
+  }
+}

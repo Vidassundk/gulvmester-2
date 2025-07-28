@@ -1,0 +1,26 @@
+/* Process Section  */
+
+.single-process-item {
+    text-align: center;
+    margin-bottom: 60px;
+
+    .process-icon {
+        display: inline-flex;
+        width: 60px;
+        height: 60px;
+        border: 1px solid #C5853A;
+        align-items: center;
+        justify-content: center;
+        padding: 32px;
+        i {
+            font-size: 30px;
+            color: #C5853A;            
+        }
+    }    
+    
+    .process-content h5 {
+        font-size: 20px;
+        margin: 40px 0 30px;
+    }
+}
+

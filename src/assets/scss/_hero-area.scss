@@ -1,0 +1,134 @@
+.hero-area {
+  position: relative;
+  z-index: 1;
+
+  .video-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    @media #{$xs} {
+      margin-top: 30px;
+    }
+  }
+
+  .video-play-btn {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    position: relative;
+    z-index: 999;
+    font-size: 20px;
+    line-height: 1;
+    color: $theme_color;
+    &:hover {
+      background: $theme_color;
+      color: #fff;
+    }
+  }
+}
+
+/* --- Hero Section Responsive Styles --- */
+
+/* This is your existing style for DESKTOP */
+.hero-img-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* This is the NEW part for MOBILE and TABLET */
+/* It applies on screens 991.98px wide or smaller */
+@media (max-width: 1200px) {
+  .hero-img-wrap {
+    /* Override the absolute positioning */
+    position: relative;
+    top: auto;
+    right: auto;
+
+    /* Make it full width and add space above it */
+    width: 100%;
+    margin-top: 50px;
+
+    /* Optional: give it a fixed height or min-height on mobile */
+    min-height: 600px;
+    height: auto;
+  }
+
+  .hero-area {
+    /* The padding-bottom was for the text, we don't need it when the form stacks below */
+    padding-bottom: 50px;
+  }
+}
+
+/* Hero Area # 03 */
+
+#home-3 {
+  .single-slide-item {
+    //background-image: url(../img/slider/slide-1.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    color: #fff;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-area-content {
+    padding-left: 80px;
+    @media #{$xs} {
+      padding-left: 0;
+    }
+  }
+}
+
+// Slider Nav Style
+
+.homepage-slides .owl-nav button.owl-prev,
+.homepage-slides .owl-nav button.owl-next {
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 16px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  margin-top: -25px;
+  color: $theme_color;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.homepage-slides .owl-nav button.owl-next {
+  left: auto;
+  right: 15px;
+}
+
+.homepage-slides:hover .owl-nav button.owl-prev,
+.homepage-slides:hover .owl-nav button.owl-next {
+  visibility: visible;
+  opacity: 0.3;
+}
+
+.homepage-slides .owl-nav button.owl-prev:hover,
+.homepage-slides .owl-nav button.owl-next:hover {
+  background: $theme_color;
+  color: #fff;
+  border-color: $theme_color;
+  opacity: 1;
+}

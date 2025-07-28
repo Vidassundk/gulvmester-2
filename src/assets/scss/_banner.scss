@@ -1,0 +1,46 @@
+.banner-section {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    @media #{$md} {
+        flex-direction: column;
+    }
+    @media #{$xs} {
+        flex-direction: column;
+    }
+}
+
+.banner-bg {    
+    width: 65%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    @media #{$md} {
+        width: 100%;
+    }
+    @media #{$xs} {
+        width: 100%;
+    }
+}
+
+.banner-content-wrap {
+    width: 35%;
+    height: 350px;
+    right: 0;
+    top: 0;
+    padding: 45px;
+    background: #68451f;
+    @media #{$md} {
+        width: 100%;
+        height: auto;        
+    }
+    @media #{$xs} {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    p {
+        color: #fff;
+    }
+}
+

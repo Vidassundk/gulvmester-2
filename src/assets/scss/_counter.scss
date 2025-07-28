@@ -1,0 +1,146 @@
+
+/* Counter # 02 */
+
+.counter-two{
+
+    .counter-intro-wrap {
+        padding-right: 50px;
+        @media #{$xs} {
+            padding-right: 20px;
+        }
+    }
+
+    .counter-item-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        @media #{$md}{            
+            margin-top: 60px;
+            flex-wrap: nowrap;
+            gap: 15px;
+        }
+        @media #{$xs}{
+            margin-top: 60px;
+        }
+    }
+    
+    .single-counter-box {
+        flex: 0 0 230px;
+        margin-bottom: 0;
+        @media #{$md}{
+            flex: 0 0 185px;
+        }
+
+        p.counter-number {
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 1;
+            letter-spacing: 1px;
+            color: #fff;
+            display: inline-block;
+            @media #{$xs} {
+                font-size: 35px;
+            }
+        }
+        h6 {
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+        }
+        
+        span{
+            font-size: 50px;
+            font-weight: 400;
+            color: #fff;
+            margin-left: 5px;
+        }
+    }
+    
+}
+
+/* Counter # 03 */
+
+#counter-3{
+    
+    .single-counter-box {    
+        text-align: center;
+        @media #{$md} {      
+            margin-bottom: 60px;      
+        }
+        @media #{$xs} {      
+            margin-bottom: 60px;      
+            text-align: center;
+        }
+        h6 {
+            font-size: 16px;
+            font-weight: 400;   
+            color: #fff;    
+            margin-bottom: 15px; 
+    
+            @media #{$xs} {            
+                font-size: 17px;
+            }
+        }
+        
+    }
+    
+    .single-counter-box .counter-number span {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: #fff;
+        
+        @media #{$lg} {
+            font-size: 60px;
+        }
+        @media #{$md} {
+            font-size: 40px;
+        }
+    
+        @media #{$xs} {
+            font-size: 40px;
+        }
+    }
+    
+    .single-counter-box p.counter-number {
+        font-size: 60px;
+        color: #fff;
+        display: inline-block;
+        @media #{$lg} {
+            font-size: 65px;
+        }
+        @media #{$md} {
+            font-size: 50px;
+        }
+        @media #{$xs} {
+            font-size: 40px;
+        }
+        
+    }
+
+    .single-counter-box span {
+        font-size: 50px;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 5px;
+    }
+    
+    }
+    
+    #counter-3.pt-100 {
+        padding-top: 50px;
+      }
+    
+    
+    #counter-3.pt-200 {
+        @media #{$md}{
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+        @media #{$xs}{
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+        
+    }

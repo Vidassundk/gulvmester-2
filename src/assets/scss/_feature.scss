@@ -1,0 +1,121 @@
+/* Feature # 01 */
+
+.single-feature-item {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+
+    @media #{$xs}{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    
+    .feature-icon {
+        width: 90px;
+        @media #{$xs}{
+            width: 64px;
+        }
+    }
+    
+    .feature-content h5 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Feature # 02 */
+
+#feature-2{
+    .feature-wrap{
+        @media #{$md}{
+            margin-top: 60px;
+        }
+        @media #{$xs}{
+            margin-top: 60px;
+        }
+    }
+    
+    .single-feature-wrap {
+        background: #E9ECEB;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    
+        .feature-icon {
+            width: 50px;
+            height: auto;
+            display: inline-block;
+        }
+        h5 {
+            font-size: 20px;
+            margin: 20px 0;            
+        }
+        p{
+            margin: 0;
+            @media #{$lg}{
+                font-size: 14px;
+            }
+        }
+    }
+    
+    .feature-intro-wrap {
+        padding-left: 40px;
+        @media #{$xs}{
+            padding-left: 0;
+        }
+    }
+}
+
+
+
+/* Feature # 03 */
+
+.single-feature-wrap {
+    text-align: center;
+    padding: 30px;
+
+    @media #{$md}{
+        padding: 0;
+    }
+
+    @media #{$xs}{
+        margin-bottom: 30px;
+    }
+
+    .feat-num span {
+        font-size: 120px;
+        font-weight: 600;
+        -webkit-text-stroke: 0.8px #ddd;
+        -webkit-text-stroke-width: 1px;
+        color: transparent;
+    }
+    h5 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        margin-top: -40px;
+        @media #{$md}{
+            font-size: 24px;
+        }
+        @media #{$xs}{
+            font-size: 24px;
+        }
+    }
+    a {
+        font-size: 16px;
+        color: #C3863D;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-thickness: 2px;
+    }
+}
+
+
+
+
+
+
+
+
+

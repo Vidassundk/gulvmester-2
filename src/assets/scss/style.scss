@@ -1,0 +1,55 @@
+/*
+Template Name: Carpent
+Template URI: 
+Description: Carpenter & Craftsman React Js Template
+Author: devstarit
+Author URI: 
+Version: 1.0
+ */
+
+@import "bootstrap/scss/bootstrap";
+
+@import 'variables';
+@import 'common';
+@import 'spacer';
+@import 'pre-loader';
+@import 'mouse-cursor';
+@import 'search';
+@import 'off-canvas';
+@import 'header';
+@import 'hero-area';
+@import 'feature';
+@import 'about';
+@import 'services';
+@import 'choose-us';
+@import 'process';
+@import 'video';
+@import 'projects';
+@import 'testimonials';
+@import 'faq';
+@import 'clients';
+@import 'banner';
+@import 'counter';
+@import 'cta';
+@import 'service-slider';
+@import 'price';
+@import 'team';
+@import 'blog';
+@import 'contact';
+@import 'footer';
+@import 'breadcrumb';
+@import 'mission';
+@import 'why_choose_us';
+@import 'skill';
+
+/*
+ */
+.swiper-pagination-bullet-active{
+  background: #C5853A !important;
+}
+.z-99{
+  z-index: 99 !important;
+}
+.position-unset{
+  position: unset !important;
+}

@@ -1,0 +1,177 @@
+{
+  "header_top": {
+    "email": "info@gulvmestere.no",
+    "address": "Jadarvegen 28e, 4365 Nærbø, Norge",
+    "hours": "Man - Fre: 8.00 - 17.00",
+    "phone1": "+4748619643",
+    "phone2": "+4746268062"
+  },
+  "header_one": {
+    "call_us_button": "Ring oss"
+  },
+  "hero_section": {
+    "subtitle": "Profesjonelle gulvtjenester",
+    "heading_part1": "Vi leverer ekspert",
+    "heading_part2": "gulvløsninger i 🇳🇴 Rogaland",
+    "tagline": "Din pålitelige lokale partner for vakre, slitesterke gulv.",
+    "description": "Vi er stolte av vår sømløse prosess, som veileder deg fra den første konsultasjonen og materialvalg til en feilfri, profesjonell installasjon som vil vare i lang tid.",
+    "services_button": "Tjenester"
+  },
+  "contact_form": {
+    "heading": "Få et personlig tilbud",
+    "description": "Fyll ut skjemaet og motta et personlig tilbud for parkettinstallasjon, samt hjelp til valg av gulv. Vi kommer tilbake til deg innen 1 virkedag.",
+    "placeholder_name": "Navn",
+    "placeholder_email": "E-post",
+    "placeholder_phone": "Telefon",
+    "placeholder_sqm": "Kvadratmeter (m²)",
+    "placeholder_project_details": "Om prosjektet",
+    "submit_button_value": "Send melding",
+    "submit_alert_placeholder": "Skjema sendt! (Dette er en plassholder)"
+  },
+  "counter_one": {
+    "subtitle": "Din visjon, vår ekspertise.",
+    "heading_highlight": "Rogalands",
+    "heading_rest": "valg for profesjonell gulvlegging",
+    "description": "Fra første konsultasjon til siste plank, veileder vi deg gjennom hvert trinn. Vi kombinerer vår dype kunnskap om gulv med din unike stil for å skape fantastiske, langvarige resultater.",
+    "get_a_quote_button": "Få et tilbud",
+    "projects_completed": "Fullførte prosjekter",
+    "satisfied_customers": "Fornøyde kunder",
+    "years_of_experience": "Års erfaring",
+    "materials_available": "Tilgjengelige materialer"
+  },
+  "scrolling_text": {
+    "skilled_professionals": "Dyktige fagfolk",
+    "proven_track_record": "Dokumentert erfaring",
+    "sustainable_materials": "Bærekraftige materialvalg",
+    "cost_effective_solutions": "Kostnadseffektive løsninger",
+    "custom_design_services": "Tilpassede designtjenester",
+    "client_focused_approach": "Kundefokusert tilnærming"
+  },
+  "common": {
+    "our_services": "Våre tjenester",
+    "read_more": "Les mer",
+    "view_all_projects": "Se alle prosjekter",
+    "services_page_title": "Tjenester",
+    "services_page_breadcrumb_label": "Tjenester",
+    "project_page_title": "Prosjekter",
+    "project_page_breadcrumb_label": "Prosjekter",
+    "faq_page_title": "Ofte stilte spørsmål",
+    "faq_page_breadcrumb_label": "Ofte stilte spørsmål",
+    "contact_page_title": "Kontakt",
+    "contact_page_breadcrumb_label": "Kontakt",
+    "our_projects": "Våre prosjekter",
+    "faq": "Ofte stilte spørsmål",
+    "contact": "Kontakt",
+    "contact_us_button": "Kontakt oss"
+  },
+  "services_section": {
+    "main_heading": "Din visjon, vårt fundament: Ekspert gulvløsninger",
+    "professional_installation_title": "Profesjonell gulvlegging",
+    "professional_installation_desc": "Sikrer feilfritt lagte gulv som vil tjene deg i årevis. Vi håndterer laminat, parkett, vinyl og alle nødvendige undergulvforberedelser.",
+    "custom_designs_title": "Tilpassede gulvdesign",
+    "custom_designs_desc": "Gi liv til din unike visjon med skreddersydde gulvmønstre. Fra klassisk fiskeben til elegant chevron og andre tilpassede løsninger.",
+    "renovation_repair_title": "Gulvoppussing og reparasjon",
+    "renovation_repair_desc": "Gi dine gamle gulv nytt liv gjennom ekspertsliping, lakkering eller oljebehandling. Vi håndterer også fullstendige gulvutskiftninger og mindre reparasjoner.",
+    "expert_consultations_title": "Ekspertgulvkonsultasjoner",
+    "expert_consultations_desc": "Få profesjonell rådgivning om materialer, design og vedlikehold. Vi hjelper deg med å velge den perfekte gulvløsningen for ditt rom og budsjett.",
+    "laminate_solutions_title": "Laminatgulvløsninger",
+    "laminate_solutions_desc": "Rask og praktisk laminatinstallasjon for hjem og næringslokaler, sikrer presis tilpasning og holdbarhet.",
+    "parquet_engineered_title": "Parkett og ingeniørgulv",
+    "parquet_engineered_desc": "Legger til varme og luksus med nøye installert heltre eller ingeniørparkett, i henhold til produsentens retningslinjer."
+  },
+  "projects_section_one": {
+    "subtitle": "Våre fullførte prosjekter",
+    "title": "Viser gulvtransformasjoner av høy kvalitet",
+    "image_alt_prefix": "Fullført gulvprosjekt {{index}}"
+  },
+  "about_section_one": {
+    "subtitle": "Hvorfor velge oss?",
+    "title": "Hør fra våre fornøyde kunder",
+    "description": "Vårt engasjement for eksepsjonelle gulvløsninger taler for seg selv. Vi er stolte av tilliten våre kunder viser oss og den positive tilbakemeldingen vi stadig mottar. Din tilfredshet er vår høyeste prioritet, reflektert i hvert fullførte prosjekt.",
+    "google_rating_label": "Gjennomsnittlig Google-vurdering",
+    "mittanbud_reviews_label": "Anmeldelser på Mittanbud"
+  },
+  "faq_section_one": {
+    "subtitle": "Dine spørsmål, besvart",
+    "title": "Vanlige spørsmål om våre gulvtjenester",
+    "image_alt": "Ofte stilte spørsmål om gulvtjenester",
+    "q1": "Hvilke gulvtjenester tilbyr dere?",
+    "a1": "Vi tilbyr legging av laminat, parkett, vinyl og heltre gulv. Vi utfører også sliping, lakkering og oljebehandling av gulv for å sikre lang holdbarhet og estetikk. I tillegg fjerner vi gamle belegg, klargjør underlaget for nye gulv, og sørger for at alt blir utført med presisjon og kvalitet.",
+    "q2": "Tilbyr dere konsultasjoner for valg av riktig gulv?",
+    "a2": "Ja, vi tilbyr profesjonelle konsultasjoner for å hjelpe deg med å velge det mest passende gulvet for dine behov. Vi vurderer rommets formål, bruksintensitet, fuktighetsnivå og estetikk for å sikre at den valgte løsningen er langvarig og passer til ditt interiør.",
+    "q3": "Hvor lang tid tar det å fullføre gulvarbeidet?",
+    "a3": "Arbeidets varighet avhenger av gulvtypen, størrelsen på området og kompleksiteten ved klargjøring av underlaget. Laminat- eller vinylgulv tar vanligvis 1-3 dager å installere, mens parkettinstallasjon med sliping og lakkering kan ta opptil en uke. Vi vil planlegge og time arbeidet nøyaktig etter inspeksjon av stedet.",
+    "q4": "Tilbyr dere gulvoppussingstjenester?",
+    "a4": "Ja, vi tilbyr sliping, lakkering, oljebehandling og utskifting av skadede gulvbord. Disse tjenestene bidrar til å gjenopprette gulvets utseende og forlenge levetiden. Vi er klare til å bringe tilbake den opprinnelige skjønnheten og funksjonaliteten til gulvene dine.",
+    "q5": "Jobber dere med næringseiendommer?",
+    "a5": "Ja, vi jobber med både private og næringseiendommer, inkludert kontorer, restauranter, butikker og andre lokaler. Vi har erfaring med prosjekter av ulik størrelse og kan tilby løsninger tilpasset dine forretningsbehov.",
+    "q6": "Hvordan kan jeg bestille tjenestene deres?",
+    "a6": "Kontakt oss på telefon eller e-post som er oppført i vår kontaktinformasjon. Vi avtaler en befaring for å vurdere omfanget av arbeidet og utarbeide et individuelt tilbud. Alt gjøres raskt og transparent for din bekvemmelighet.",
+    "q7": "Gir dere garanti på arbeidet deres?",
+    "a7": "Ja, vi gir garanti på arbeidet vårt. Garantiperioden avhenger av prosjektets kompleksitet og omfang, men vi sikrer alltid høyeste kvalitet på arbeidet.",
+    "q8": "Hvilke materialer bruker dere til gulvlegging?",
+    "a8": "Vi bruker kun materialer av høy kvalitet fra pålitelige produsenter som oppfyller alle sikkerhets- og holdbarhetskrav. Materialer velges i henhold til kundens behov og rommets spesifikasjoner for å sikre at sluttresultatet er både vakkert og holdbart.",
+    "q9": "Tilbyr dere fjerning av gammelt gulv?",
+    "a9": "Ja, vi kan fjerne gammelt gulv, enten det er laminat, parkett eller vinyl. Vi utfører også rengjøring og klargjøring av underlaget for nye gulv for å sikre et feilfritt resultat.",
+    "q10": "Kan jeg se eksempler på arbeidet deres?",
+    "a10": "Ja, du finner eksempler på arbeidet vårt på vår nettside eller sosiale medier. Om nødvendig kan vi tilby bilder eller videoer fra fullførte prosjekter for å gi deg et klart bilde av kvaliteten på vårt arbeid."
+  },
+  "contact_section": {
+    "get_in_touch_subtitle": "Ta kontakt",
+    "ready_to_transform_title": "Klar til å forvandle gulvene dine?",
+    "description_paragraph": "Har du et spørsmål, trenger et tilbud, eller er klar til å starte gulvprosjektet ditt? Ta kontakt med oss. Vi er her for å gi ekspert råd og sømløs service for ditt hjem eller din bedrift.",
+    "call_us_heading": "Ring oss",
+    "email_us_heading": "Send oss e-post",
+    "our_office_heading": "Vårt kontor",
+    "office_address_line1": "Jadarvegen 28e, 4365 Nærbø,",
+    "office_address_line2": "Nærbø, Rogaland, Norge"
+  },
+  "counter_two": {
+    "projects_completed_label": "Fullførte prosjekter",
+    "happy_clients_label": "Fornøyde kunder",
+    "years_in_business_label": "År i bransjen"
+  },
+  "mission_section": {
+    "subtitle": "Vår forpliktelse",
+    "main_heading": "Skape <span>eksepsjonelle gulv</span> med presisjon, lidenskap og <span>dokumentert ekspertise</span>",
+    "team_name": "Gulvmestere-teamet",
+    "specialists_role": "Dine gulvspesialister"
+  },
+  "why_choose_us_section": {
+    "subtitle": "Oppdag forskjellen",
+    "title": "Hvorfor velge Gulvmestere?",
+    "reason1_title": "Toppmoderne utstyr",
+    "reason1_alt": "Moderne gulvleggingsutstyr",
+    "reason2_title": "Uovertruffen kundeservice",
+    "reason2_alt": "Fornøyd kunde i samtale med Gulvmestere-ansatte",
+    "reason3_title": "Overlegen håndverk",
+    "reason3_alt": "Nærbilde av gulvlegging av høy kvalitet",
+    "reason4_title": "Erfarent og sertifisert team",
+    "reason4_alt": "Profesjonelt gulvleggingsteam i arbeid"
+  },
+  "footer_one": {
+    "company_description": "Din pålitelige partner for ekspert gulvløsninger i Rogaland. Vi leverer gulv av høy kvalitet, holdbare og vakkert utførte gulv for hjem og bedrifter.",
+    "our_office_heading": "Vårt kontor",
+    "office_address_line1": "Jadarvegen 28e, 4365 Nærbø,",
+    "office_address_line2": "Nærbø, Rogaland, Norge",
+    "quick_links_heading": "Raske lenker",
+    "connect_with_us_heading": "Koble deg med oss"
+  },
+  "mobile_menu": {
+    "contact_us_button": "Kontakt oss"
+  },
+  "menu": {
+    "home": "Hjem",
+    "about": "Om oss",
+    "services": "Tjenester",
+    "service1": "Tjeneste En",
+    "service2": "Tjeneste To",
+    "projects": "Prosjekter",
+    "faq": "Ofte stilte spørsmål",
+    "contact": "Kontakt",
+    "language": "Språk",
+    "english": "Engelsk 🇬🇧",
+    "norwegian": "Norsk 🇳🇴",
+    "lithuanian": "Litauisk 🇱🇹"
+  }
+}

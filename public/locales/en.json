@@ -1,0 +1,177 @@
+{
+  "header_top": {
+    "email": "info@gulvmestere.no",
+    "address": "Jadarvegen 28e, 4365 Nærbø, Norway",
+    "hours": "Mon - Fri: 8 AM - 5 PM",
+    "phone1": "+4748619643",
+    "phone2": "+4746268062"
+  },
+  "header_one": {
+    "call_us_button": "Call Us"
+  },
+  "hero_section": {
+    "subtitle": "Professional Flooring Services",
+    "heading_part1": "We deliver expert",
+    "heading_part2": "flooring solutions in 🇳🇴 Rogaland",
+    "tagline": "Your trusted local partner for beautiful, durable floors.",
+    "description": "We pride ourselves on a seamless process, guiding you from the initial consultation and material selection through to a flawless, professional installation that will stand the test of time.",
+    "services_button": "Services"
+  },
+  "contact_form": {
+    "heading": "Get my personalised quote",
+    "description": "Fill out the form and receive a personalized offer for parquet installation, along with assistance in choosing your flooring. We will get back to you in 1 business day.",
+    "placeholder_name": "Name",
+    "placeholder_email": "Email",
+    "placeholder_phone": "Phone",
+    "placeholder_sqm": "Square Meters (m²)",
+    "placeholder_project_details": "About the project",
+    "submit_button_value": "Send Message",
+    "submit_alert_placeholder": "Form submitted! (This is a placeholder)"
+  },
+  "counter_one": {
+    "subtitle": "Your Vision, Our Expertise.",
+    "heading_highlight": "Rogaland's",
+    "heading_rest": "Choice for Professional Flooring",
+    "description": "From initial consultation to the final plank, we guide you through every step. We combine our deep knowledge of flooring with your unique style to create stunning, long-lasting results.",
+    "get_a_quote_button": "Get A Quote",
+    "projects_completed": "Complete Projects",
+    "satisfied_customers": "Satisfied Customers",
+    "years_of_experience": "Years of Experience",
+    "materials_available": "Materials Available"
+  },
+  "scrolling_text": {
+    "skilled_professionals": "Skilled Professionals",
+    "proven_track_record": "Proven Track Record",
+    "sustainable_materials": "Sustainable Material Options",
+    "cost_effective_solutions": "Cost-Effective Solutions",
+    "custom_design_services": "Custom Design Services",
+    "client_focused_approach": "Client-Focused Approach"
+  },
+  "common": {
+    "our_services": "Our Services",
+    "read_more": "Read More",
+    "view_all_projects": "View All Projects",
+    "services_page_title": "Services",
+    "services_page_breadcrumb_label": "Services",
+    "project_page_title": "Projects",
+    "project_page_breadcrumb_label": "Projects",
+    "faq_page_title": "FAQ's",
+    "faq_page_breadcrumb_label": "FAQ's",
+    "contact_page_title": "Contact",
+    "contact_page_breadcrumb_label": "Contact",
+    "our_projects": "Our Projects",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "contact_us_button": "Contact Us"
+  },
+  "services_section": {
+    "main_heading": "Your Vision, Our Foundation: Expert Flooring Solutions",
+    "professional_installation_title": "Professional Flooring Installation",
+    "professional_installation_desc": "Ensuring flawlessly laid floors that will serve you for years. We handle laminate, parquet, vinyl, and all necessary subfloor preparations.",
+    "custom_designs_title": "Custom Flooring Designs",
+    "custom_designs_desc": "Bring your unique vision to life with bespoke flooring patterns. From classic Herringbone to elegant Chevron and other custom solutions.",
+    "renovation_repair_title": "Flooring Renovation & Repair",
+    "renovation_repair_desc": "Revitalize your old floors through expert sanding, lacquering, or oiling. We also handle full floor replacements and minor repairs.",
+    "expert_consultations_title": "Expert Flooring Consultations",
+    "expert_consultations_desc": "Get professional advice on materials, design, and maintenance. We help you choose the perfect flooring solution for your space and budget.",
+    "laminate_solutions_title": "Laminate Flooring Solutions",
+    "laminate_solutions_desc": "Quick and practical laminate installation for homes and commercial spaces, ensuring precise fitting and durability.",
+    "parquet_engineered_title": "Parquet & Engineered Wood",
+    "parquet_engineered_desc": "Adding warmth and luxury with meticulously installed solid wood or engineered parquet, following manufacturer guidelines."
+  },
+  "projects_section_one": {
+    "subtitle": "Our Completed Projects",
+    "title": "Showcasing Quality Flooring Transformations",
+    "image_alt_prefix": "Completed flooring project {{index}}"
+  },
+  "about_section_one": {
+    "subtitle": "Why Choose Us?",
+    "title": "Hear From Our Happy Clients",
+    "description": "Our commitment to exceptional flooring solutions speaks for itself. We're proud of the trust our clients place in us and the positive feedback we consistently receive. Your satisfaction is our top priority, reflected in every completed project.",
+    "google_rating_label": "Average Google Rating",
+    "mittanbud_reviews_label": "Reviews on Mittanbud"
+  },
+  "faq_section_one": {
+    "subtitle": "Your Questions, Answered",
+    "title": "Common Questions About Our Flooring Services",
+    "image_alt": "Frequently Asked Questions about Flooring Services",
+    "q1": "What flooring services do you offer?",
+    "a1": "We offer laminate, parquet, vinyl, and solid wood flooring installation services. We also provide floor sanding, varnishing, and oiling to ensure durability and aesthetics. Additionally, we remove old coverings, prepare the base for new floors, and ensure everything is completed with precision and quality.",
+    "q2": "Do you offer consultations for choosing the right flooring?",
+    "a2": "Yes, we provide professional consultations to help you choose the most suitable flooring for your needs. We evaluate the room's purpose, intensity, humidity level, and aesthetics to ensure the chosen solution is long-lasting and matches your interior.",
+    "q3": "How long does it take to complete flooring work?",
+    "a3": "The duration of work depends on the type of flooring, the area size, and the complexity of base preparation. Laminate or vinyl flooring usually takes 1-3 days to install, while parquet installation with sanding and varnishing may take up to a week. We will plan and schedule the work accurately after inspecting the site.",
+    "q4": "Do you offer floor renovation services?",
+    "a4": "Yes, we provide floor sanding, varnishing, oiling, and replacement of damaged boards. These services help restore the appearance of your floors and extend their lifespan. We are ready to bring back the original beauty and functionality of your floors.",
+    "q5": "Do you work with commercial properties?",
+    "a5": "Yes, we work with both residential and commercial properties, including offices, restaurants, shops, and other spaces. We have experience handling projects of various sizes and can offer solutions tailored to your business needs.",
+    "q6": "How can I book your services?",
+    "a6": "Contact us by phone or email listed in our contact information. We will arrange a site inspection to evaluate the scope of work and prepare an individual offer. Everything is done quickly and transparently for your convenience.",
+    "q7": "Do you provide a warranty for your work?",
+    "a7": "Yes, we provide a warranty for our work. The warranty duration depends on the project's complexity and scope, but we always ensure the highest quality of work.",
+    "q8": "What materials do you use for flooring installation?",
+    "a8": "We use only high-quality materials from trusted manufacturers that meet all safety and durability requirements. Materials are chosen according to the client's needs and the room's specifics to ensure the final result is both beautiful and durable.",
+    "q9": "Do you offer old flooring removal services?",
+    "a9": "Yes, we can remove old flooring, whether it is laminate, parquet, or vinyl. We also handle base cleaning and preparation for new flooring to ensure a flawless result.",
+    "q10": "Can I view examples of your work?",
+    "a10": "Yes, you can find examples of our work on our website or social media. If needed, we can provide photos or videos from completed projects to give you a clear idea of our work quality."
+  },
+  "contact_section": {
+    "get_in_touch_subtitle": "Get in Touch",
+    "ready_to_transform_title": "Ready to Transform Your Floors?",
+    "description_paragraph": "Have a question, need a quote, or ready to start your flooring project? Reach out to us. We're here to provide expert advice and seamless service for your home or business.",
+    "call_us_heading": "Call Us",
+    "email_us_heading": "Email Us",
+    "our_office_heading": "Our Office",
+    "office_address_line1": "Jadarvegen 28e, 4365 Nærbø,",
+    "office_address_line2": "Nærbø, Norvegija"
+  },
+  "counter_two": {
+    "projects_completed_label": "Projects Completed",
+    "happy_clients_label": "Happy Clients",
+    "years_in_business_label": "Years in Business"
+  },
+  "mission_section": {
+    "subtitle": "Our Commitment",
+    "main_heading": "Crafting <span>Exceptional Floors</span> with Precision, Passion & <span>Proven Expertise</span>",
+    "team_name": "The Gulvmestere Team",
+    "specialists_role": "Your Flooring Specialists"
+  },
+  "why_choose_us_section": {
+    "subtitle": "Discover the Difference",
+    "title": "Why Choose Gulvmestere?",
+    "reason1_title": "Cutting-Edge Equipment",
+    "reason1_alt": "Modern flooring installation equipment",
+    "reason2_title": "Unmatched Customer Service",
+    "reason2_alt": "Happy customer interacting with Gulvmestere staff",
+    "reason3_title": "Superior Craftsmanship",
+    "reason3_alt": "Close-up of high-quality floor installation",
+    "reason4_title": "Experienced & Certified Team",
+    "reason4_alt": "Professional flooring installation team at work"
+  },
+  "footer_one": {
+    "company_description": "Your trusted partner for expert flooring solutions in Rogaland. We deliver high-quality, durable, and beautifully crafted floors for homes and businesses.",
+    "our_office_heading": "Our Office",
+    "office_address_line1": "Jadarvegen 28e, 4365 Nærbø,",
+    "office_address_line2": "Nærbø, Rogaland, Norway",
+    "quick_links_heading": "Quick Links",
+    "connect_with_us_heading": "Connect With Us"
+  },
+  "mobile_menu": {
+    "contact_us_button": "Contact Us"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "service1": "Service One",
+    "service2": "Service Two",
+    "projects": "Projects",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "language": "Language",
+    "english": "English 🇬🇧",
+    "norwegian": "Norsk 🇳🇴",
+    "lithuanian": "Lietuvių 🇱🇹"
+  }
+}

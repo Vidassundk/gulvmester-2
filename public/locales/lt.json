@@ -1,0 +1,177 @@
+{
+  "header_top": {
+    "email": "info@gulvmestere.no",
+    "address": "Jadarvegen 28e, 4365 Nærbø, Norvegija",
+    "hours": "Pirmadienis - Penktadienis: 8:00 - 17:00",
+    "phone1": "+4748619643",
+    "phone2": "+4746268062"
+  },
+  "header_one": {
+    "call_us_button": "Skambinti"
+  },
+  "hero_section": {
+    "subtitle": "Profesionalios grindų paslaugos",
+    "heading_part1": "Teikiame ekspertines",
+    "heading_part2": "grindų dangos sprendimus 🇳🇴 Rogalande",
+    "tagline": "Jūsų patikimas vietinis partneris gražioms, patvarioms grindims.",
+    "description": "Mes didžiuojamės sklandžiu procesu, vedančiu jus nuo pradinės konsultacijos ir medžiagų parinkimo iki nepriekaištingo, profesionalaus įrengimo, kuris atlaikys laiko išbandymą.",
+    "services_button": "Paslaugos"
+  },
+  "contact_form": {
+    "heading": "Gauti asmeninį pasiūlymą",
+    "description": "Užpildykite formą ir gaukite asmeninį parketo montavimo pasiūlymą bei pagalbą renkantis grindų dangą. Susisieksime su jumis per 1 darbo dieną.",
+    "placeholder_name": "Vardas",
+    "placeholder_email": "El. paštas",
+    "placeholder_phone": "Telefonas",
+    "placeholder_sqm": "Kvadratiniai metrai (m²)",
+    "placeholder_project_details": "Apie projektą",
+    "submit_button_value": "Siųsti žinutę",
+    "submit_alert_placeholder": "Forma išsiųsta! (Tai yra vietos rezervavimo ženklas)"
+  },
+  "counter_one": {
+    "subtitle": "Jūsų vizija, mūsų patirtis.",
+    "heading_highlight": "Rogalando",
+    "heading_rest": "pasirinkimas profesionaliam grindų klojimui",
+    "description": "Nuo pradinės konsultacijos iki paskutinės lentos, mes vedame jus per kiekvieną žingsnį. Mes sujungiame savo gilias žinias apie grindis su jūsų unikaliu stiliumi, kad sukurtume stulbinančius, ilgalaikius rezultatus.",
+    "get_a_quote_button": "Gauti pasiūlymą",
+    "projects_completed": "Užbaigti projektai",
+    "satisfied_customers": "Patogti klientai",
+    "years_of_experience": "Metų patirtis",
+    "materials_available": "Turimos medžiagos"
+  },
+  "scrolling_text": {
+    "skilled_professionals": "Kvalifikuoti specialistai",
+    "proven_track_record": "Patikrinta patirtis",
+    "sustainable_materials": "Tvarių medžiagų pasirinkimai",
+    "cost_effective_solutions": "Ekonomiški sprendimai",
+    "custom_design_services": "Individualūs dizaino sprendimai",
+    "client_focused_approach": "Į klientą orientuotas požiūris"
+  },
+  "common": {
+    "our_services": "Mūsų paslaugos",
+    "read_more": "Skaityti daugiau",
+    "view_all_projects": "Peržiūrėti visus projektus",
+    "services_page_title": "Paslaugos",
+    "services_page_breadcrumb_label": "Paslaugos",
+    "project_page_title": "Projektai",
+    "project_page_breadcrumb_label": "Projektai",
+    "faq_page_title": "DUK",
+    "faq_page_breadcrumb_label": "DUK",
+    "contact_page_title": "Kontaktai",
+    "contact_page_breadcrumb_label": "Kontaktai",
+    "our_projects": "Mūsų projektai",
+    "faq": "DUK",
+    "contact": "Kontaktai",
+    "contact_us_button": "Susisiekite su mumis"
+  },
+  "services_section": {
+    "main_heading": "Jūsų vizija, mūsų pagrindas: ekspertiniai grindų sprendimai",
+    "professional_installation_title": "Profesionalus grindų montavimas",
+    "professional_installation_desc": "Užtikriname nepriekaištingai paklotas grindis, kurios tarnaus jums ilgus metus. Mes klojame laminatą, parketą, vinilą ir atliekame visus reikalingus pagrindo paruošimo darbus.",
+    "custom_designs_title": "Individualūs grindų dizainai",
+    "custom_designs_desc": "Įgyvendinkite savo unikalią viziją su individualiais grindų raštais. Nuo klasikinio eglutės rašto iki elegantiško „Chevron“ ir kitų individualių sprendimų.",
+    "renovation_repair_title": "Grindų atnaujinimas ir remontas",
+    "renovation_repair_desc": "Atgaivinkite savo senas grindis profesionaliu šlifavimu, lakavimu ar alyvavimu. Mes taip pat atliekame pilną grindų keitimą ir smulkius remonto darbus.",
+    "expert_consultations_title": "Ekspertų konsultacijos dėl grindų",
+    "expert_consultations_desc": "Gaukite profesionalių patarimų dėl medžiagų, dizaino ir priežiūros. Mes padėsite jums išsirinkti tobulą grindų sprendimą jūsų erdvei ir biudžetui.",
+    "laminate_solutions_title": "Laminato grindų sprendimai",
+    "laminate_solutions_desc": "Greitas ir praktiškas laminato montavimas namams ir komercinėms patalpoms, užtikrinantis tikslų montavimą ir ilgaamžiškumą.",
+    "parquet_engineered_title": "Parketas ir inžinerinės medienos grindys",
+    "parquet_engineered_desc": "Pridėkite šilumos ir prabangos su kruopščiai įrengtu masyvu arba inžineriniu parketu, laikydamiesi gamintojo nurodymų."
+  },
+  "projects_section_one": {
+    "subtitle": "Mūsų užbaigti projektai",
+    "title": "Grindų transformacijos kokybės demonstravimas",
+    "image_alt_prefix": "Užbaigtas grindų projektas {{index}}"
+  },
+  "about_section_one": {
+    "subtitle": "Kodėl verta rinktis mus?",
+    "title": "Atsiliepimai iš mūsų laimingų klientų",
+    "description": "Mūsų įsipareigojimas teikti išskirtinius grindų sprendimus kalba pats už save. Mes didžiuojamės klientų pasitikėjimu mumis ir nuolat gaunamu teigiamu atsiliepimu. Jūsų pasitenkinimas yra mūsų pagrindinis prioritetas, atsispindintis kiekviename užbaigtame projekte.",
+    "google_rating_label": "Vidutinis Google įvertinimas",
+    "mittanbud_reviews_label": "Atsiliepimai Mittanbud"
+  },
+  "faq_section_one": {
+    "subtitle": "Jūsų klausimai, atsakymai",
+    "title": "Dažnai užduodami klausimai apie mūsų grindų paslaugas",
+    "image_alt": "Dažnai užduodami klausimai apie grindų paslaugas",
+    "q1": "Kokias grindų klojimo paslaugas teikiate?",
+    "a1": "Mes teikiame laminato, parketo, vinilo ir masyvo lentų grindų klojimo paslaugas. Taip pat atliekame grindų šlifavimą, lakavimą ir alyvavimą, kad užtikrintume ilgaamžiškumą ir estetiką. Be to, demontuojame senas dangas, paruošiame pagrindą naujoms grindims ir užtikriname, kad viskas būtų atlikta preciziškai ir kokybiškai.",
+    "q2": "Ar teikiate konsultacijas renkantis tinkamą grindų dangą?",
+    "a2": "Taip, mes teikiame profesionalias konsultacijas, kad padėtume jums išsirinkti tinkamiausią grindų dangą jūsų poreikiams. Įvertiname patalpos paskirtį, eksploatacijos intensyvumą, drėgmės lygį ir estetiką, kad pasirinktas sprendimas būtų ilgalaikis ir derėtų prie jūsų interjero.",
+    "q3": "Kiek laiko trunka grindų klojimo darbai?",
+    "a3": "Darbų trukmė priklauso nuo grindų dangos tipo, ploto dydžio ir pagrindo paruošimo sudėtingumo. Laminato ar vinilo grindų montavimas paprastai užtrunka 1-3 dienas, o parketo montavimas su šlifavimu ir lakavimu gali užtrukti iki savaitės. Tiksliai suplanuosime ir suderinsime darbus po objekto apžiūros.",
+    "q4": "Ar teikiate grindų atnaujinimo paslaugas?",
+    "a4": "Taip, mes teikiame grindų šlifavimo, lakavimo, alyvavimo ir pažeistų lentų keitimo paslaugas. Šios paslaugos padeda atkurti jūsų grindų išvaizdą ir prailginti jų tarnavimo laiką. Esame pasiruošę sugrąžinti originalų jūsų grindų grožį ir funkcionalumą.",
+    "q5": "Ar dirbate su komercinėmis patalpomis?",
+    "a5": "Taip, mes dirbame tiek su gyvenamosiomis, tiek su komercinėmis patalpomis, įskaitant biurus, restoranus, parduotuves ir kitas erdves. Turime patirties įvairaus dydžio projektuose ir galime pasiūlyti sprendimus, pritaikytus jūsų verslo poreikiams.",
+    "q6": "Kaip užsisakyti jūsų paslaugas?",
+    "a6": "Susisiekite su mumis telefonu arba el. paštu, nurodytais mūsų kontaktinėje informacijoje. Sutarsime dėl objekto apžiūros, kad įvertintume darbų apimtį ir parengtume individualų pasiūlymą. Viskas atliekama greitai ir skaidriai jūsų patogumui.",
+    "q7": "Ar suteikiate garantiją savo darbui?",
+    "a7": "Taip, mes suteikiame garantiją savo darbui. Garantijos trukmė priklauso nuo projekto sudėtingumo ir apimties, tačiau mes visada užtikriname aukščiausią darbų kokybę.",
+    "q8": "Kokias medžiagas naudojate grindų klojimui?",
+    "a8": "Mes naudojame tik aukštos kokybės medžiagas iš patikimų gamintojų, kurios atitinka visus saugumo ir ilgaamžiškumo reikalavimus. Medžiagos parenkamos atsižvelgiant į kliento poreikius ir patalpos specifiką, kad galutinis rezultatas būtų gražus ir patvarus.",
+    "q9": "Ar teikiate senų grindų demontavimo paslaugas?",
+    "a9": "Taip, mes galime demontuoti senas grindis, nesvarbu, ar tai laminatas, parketas, ar vinilas. Taip pat atliekame pagrindo valymą ir paruošimą naujoms grindims, kad užtikrintume nepriekaištingą rezultatą.",
+    "q10": "Ar galiu pamatyti jūsų darbų pavyzdžius?",
+    "a10": "Taip, mūsų darbų pavyzdžius galite rasti mūsų svetainėje arba socialiniuose tinkluose. Jei reikia, galime pateikti nuotraukas ar vaizdo įrašus iš užbaigtų projektų, kad gautumėte aiškų mūsų darbo kokybės vaizdą."
+  },
+  "contact_section": {
+    "get_in_touch_subtitle": "Susisiekite",
+    "ready_to_transform_title": "Pasiruošę transformuoti savo grindis?",
+    "description_paragraph": "Turite klausimų, reikia pasiūlymo ar esate pasiruošę pradėti savo grindų projektą? Susisiekite su mumis. Esame čia, kad teiktume ekspertų patarimus ir nepriekaištingą paslaugą jūsų namams ar verslui.",
+    "call_us_heading": "Skambinkite mums",
+    "email_us_heading": "Rašykite mums el. paštu",
+    "our_office_heading": "Mūsų biuras",
+    "office_address_line1": "Jadarvegen 28e, 4365 Nærbø,",
+    "office_address_line2": "Nærbø, Norvegija"
+  },
+  "counter_two": {
+    "projects_completed_label": "Užbaigti projektai",
+    "happy_clients_label": "Patogti klientai",
+    "years_in_business_label": "Metai versle"
+  },
+  "mission_section": {
+    "subtitle": "Mūsų įsipareigojimas",
+    "main_heading": "Kurkite <span>išskirtines grindis</span> su tikslumu, aistra ir <span>patikrinta patirtimi</span>",
+    "team_name": "Gulvmestere komanda",
+    "specialists_role": "Jūsų grindų specialistai"
+  },
+  "why_choose_us_section": {
+    "subtitle": "Atraskite skirtumą",
+    "title": "Kodėl verta rinktis Gulvmestere?",
+    "reason1_title": "Pažangiausia įranga",
+    "reason1_alt": "Šiuolaikinė grindų įrengimo įranga",
+    "reason2_title": "Neprilygstamas klientų aptarnavimas",
+    "reason2_alt": "Laimingas klientas bendraujantis su Gulvmestere darbuotojais",
+    "reason3_title": "Aukščiausia kokybė",
+    "reason3_alt": "Aukštos kokybės grindų įrengimo stambiu planu",
+    "reason4_title": "Patyrusi ir sertifikuota komanda",
+    "reason4_alt": "Profesionali grindų įrengimo komanda darbe"
+  },
+  "footer_one": {
+    "company_description": "Jūsų patikimas partneris ekspertiniams grindų sprendimams Rogalande. Mes tiekiame aukštos kokybės, patvarias ir gražiai pagamintas grindis namams ir įmonėms.",
+    "our_office_heading": "Mūsų biuras",
+    "office_address_line1": "Jadarvegen 28e, 4365 Nærbø,",
+    "office_address_line2": "Nærbø, Rogaland, Norvegija",
+    "quick_links_heading": "Greitos nuorodos",
+    "connect_with_us_heading": "Susisiekite su mumis"
+  },
+  "mobile_menu": {
+    "contact_us_button": "Susisiekite su mumis"
+  },
+  "menu": {
+    "home": "Pradžia",
+    "about": "Apie",
+    "services": "Paslaugos",
+    "service1": "Paslauga Viena",
+    "service2": "Paslauga Du",
+    "projects": "Projektai",
+    "faq": "DUK",
+    "contact": "Kontaktai",
+    "language": "Kalba",
+    "english": "Anglų 🇬🇧",
+    "norwegian": "Norvegų 🇳🇴",
+    "lithuanian": "Lietuvių 🇱🇹"
+  }
+}
