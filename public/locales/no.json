@@ -26,7 +26,8 @@
     "placeholder_sqm": "Kvadratmeter (m²)",
     "placeholder_project_details": "Om prosjektet",
     "submit_button_value": "Send melding",
-    "submit_alert_placeholder": "Skjema sendt! (Dette er en plassholder)"
+    "submit_alert_placeholder": "Skjema sendt! (Dette er en plassholder)",
+    "consent_label": "Jeg samtykker til å bli kontaktet med informasjonen jeg har oppgitt."
   },
   "counter_one": {
     "subtitle": "Din visjon, vår ekspertise.",

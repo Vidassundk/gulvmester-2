@@ -18,6 +18,7 @@
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
+    "resend": "^4.7.0",
     "sass": "^1.86.3",
     "swiper": "^11.2.6",
     "wow.js": "^1.2.2"

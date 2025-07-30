@@ -11,10 +11,10 @@
   },
   "hero_section": {
     "subtitle": "Profesionalios grindų paslaugos",
-    "heading_part1": "Teikiame ekspertines",
-    "heading_part2": "grindų dangos sprendimus 🇳🇴 Rogalande",
-    "tagline": "Jūsų patikimas vietinis partneris gražioms, patvarioms grindims.",
-    "description": "Mes didžiuojamės sklandžiu procesu, vedančiu jus nuo pradinės konsultacijos ir medžiagų parinkimo iki nepriekaištingo, profesionalaus įrengimo, kuris atlaikys laiko išbandymą.",
+    "heading_part1": "Grindų",
+    "heading_part2": "sprendimai Rogalande 🇳🇴 – greitai ir patikimai",
+    "tagline": "Ieškote gražių ir patvarių grindų? Mes esame vietinė komanda, kuria galite pasitikėti.",
+    "description": "Padedame išsirinkti grindis, pristatome ir sumontuojame. Viskas paprastai, be streso – nuo pirmo skambučio iki paskutinės lentelės.",
     "services_button": "Paslaugos"
   },
   "contact_form": {
@@ -26,7 +26,7 @@
     "placeholder_sqm": "Kvadratiniai metrai (m²)",
     "placeholder_project_details": "Apie projektą",
     "submit_button_value": "Siųsti žinutę",
-    "submit_alert_placeholder": "Forma išsiųsta! (Tai yra vietos rezervavimo ženklas)"
+    "consent_label": "Sutinku, kad su manimi būtų susisiekta naudojant mano pateiktą informaciją."
   },
   "counter_one": {
     "subtitle": "Jūsų vizija, mūsų patirtis.",

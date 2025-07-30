@@ -193,26 +193,20 @@ export default function FooterOne() {
                 <li>
                   <div className="social-area">
                     <a
-                      href="YOUR_FACEBOOK_LINK"
+                      href="https://www.facebook.com/profile.php?id=61565412763854_LINK"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <i className="lab la-facebook-f"></i>Facebook
                     </a>
                     <a
-                      href="YOUR_INSTAGRAM_LINK"
+                      href="https://www.instagram.com/gulv_mestere_as/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <i className="lab la-instagram"></i>Instagram
                     </a>
-                    <a
-                      href="YOUR_LINKEDIN_LINK"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="lab la-linkedin-in"></i>LinkedIn
-                    </a>
+
                     {/* Removed Skype/YouTube as per previous discussions */}
                   </div>
                 </li>

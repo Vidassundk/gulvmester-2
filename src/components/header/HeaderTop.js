@@ -27,25 +27,18 @@ export default function HeaderTop() {
           <div className="col-xl-2 col-lg-4 text-end dark-bg">
             <div className="social-area">
               <a
-                href="YOUR_FACEBOOK_LINK"
+                href="https://www.facebook.com/profile.php?id=61565412763854_LINK"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
               <a
-                href="YOUR_INSTAGRAM_LINK"
+                href="https://www.instagram.com/gulv_mestere_as/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a
-                href="YOUR_LINKEDIN_LINK"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
           </div>

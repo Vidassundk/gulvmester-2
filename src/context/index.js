@@ -41,10 +41,14 @@ export function AppWrapper({ children }) {
 
   // i18n States
   const [locale, setLocaleState] = useState(() => {
+    // --- THIS IS THE MODIFIED BLOCK ---
     if (typeof window !== "undefined") {
-      return localStorage.getItem("app_locale") || "en";
+      // Try to get the user's saved preference, otherwise default to 'no'
+      return localStorage.getItem("app_locale") || "no";
     }
-    return "en";
+    // Default to 'no' on the server
+    return "no";
+    // --- END OF MODIFIED BLOCK ---
   });
 
   // translationsMap will store an object like { 'en': {...}, 'no': {...} }
@@ -73,12 +77,11 @@ export function AppWrapper({ children }) {
       }
     },
     [locale]
-  ); // Dependency: locale (setLocaleState causes locale to change)
+  );
 
   // The translation function 't'
   const t = useCallback(
     (key, replacements = {}) => {
-      // If no translations loaded yet, or specific locale data is missing, return the key.
       if (
         isLoadingTranslations ||
         Object.keys(translationsMap).length === 0 ||
@@ -87,18 +90,15 @@ export function AppWrapper({ children }) {
         return key;
       }
 
-      // Try to get translation from the current locale
       let translation = getNestedTranslation(translationsMap[locale], key);
 
-      // Fallback to English if translation is missing or empty in current locale
+      // Fallback to English if translation is missing (this part remains unchanged)
       if (
         translation === undefined ||
         translation === null ||
         (typeof translation === "string" && translation.trim() === "")
       ) {
-        // console.warn(`Missing or empty translation for key: "${key}" in locale: "${locale}". Attempting English fallback.`);
         if (translationsMap.en) {
-          // Check if English translations are loaded for fallback
           const englishTranslation = getNestedTranslation(
             translationsMap.en,
             key
@@ -106,14 +106,13 @@ export function AppWrapper({ children }) {
           if (englishTranslation) {
             translation = englishTranslation;
           } else {
-            return key; // If English fallback also fails, just return the key
+            return key;
           }
         } else {
-          return key; // If English translations aren't available for fallback, return key
+          return key;
         }
       }
 
-      // Apply string replacements if translation is a string
       if (typeof translation === "string") {
         return Object.keys(replacements).reduce((acc, repKey) => {
           return acc.replace(
@@ -123,12 +122,12 @@ export function AppWrapper({ children }) {
         }, translation);
       }
 
-      return key; // Return key if translation is not a string
+      return key;
     },
-    [translationsMap, isLoadingTranslations, locale] // Dependencies: `t` changes if translationsMap, loading state, or locale changes
+    [translationsMap, isLoadingTranslations, locale]
   );
 
-  // Effect for body class management (unrelated to i18n, kept as is)
+  // Effect for body class management
   useEffect(() => {
     if (isSearchActive) {
       document.body.classList.add("search-active");
@@ -137,72 +136,49 @@ export function AppWrapper({ children }) {
     }
   }, [isSearchActive]);
 
-  // --- ROBUST useEffect FOR LOADING TRANSLATIONS (Handles Initial Load and Locale Switches) ---
+  // Effect for loading translations
   useEffect(() => {
     const loadAndStoreTranslations = async (targetLocale) => {
-      // Mark as fetching
       fetchedLocales.current[targetLocale] = "fetching";
-
       const data = await fetchTranslations(targetLocale);
-
       setTranslationsMap((prevMap) => {
-        // Only update if the data is different to avoid unnecessary re-renders
-        // Using JSON.stringify for deep comparison, which is okay for small JSONs.
-        // For very large JSONs, consider a custom deep equality check.
         if (JSON.stringify(prevMap[targetLocale]) !== JSON.stringify(data)) {
-          return {
-            ...prevMap,
-            [targetLocale]: data,
-          };
+          return { ...prevMap, [targetLocale]: data };
         }
-        return prevMap; // No change, return previous map to avoid re-render
+        return prevMap;
       });
-
-      // Mark as fetched
       fetchedLocales.current[targetLocale] = "fetched";
     };
 
     const ensureTranslationsLoaded = async () => {
-      setIsLoadingTranslations(true); // Indicate general loading for i18n
-
-      // 1. Ensure English (fallback) is loaded first, but only once
+      setIsLoadingTranslations(true);
       if (
         !fetchedLocales.current.en ||
         fetchedLocales.current.en === "fetching"
       ) {
         if (!translationsMap.en) {
-          // Double check in state to prevent redundant fetch if setTranslationsMap was delayed
           await loadAndStoreTranslations("en");
         }
       }
-
-      // 2. Load the current active locale's translations, if not already loaded or being fetched
       if (
         !fetchedLocales.current[locale] ||
         fetchedLocales.current[locale] === "fetching"
       ) {
         if (!translationsMap[locale]) {
-          // Double check in state
           await loadAndStoreTranslations(locale);
         }
       }
-
-      // After all necessary fetches are initiated/completed, set loading to false.
-      // Give a small delay to ensure React has processed updates.
       setTimeout(() => {
         setIsLoadingTranslations(false);
-      }, 50); // A small debounce helps prevent flicker from rapid state changes
+      }, 50);
     };
 
     ensureTranslationsLoaded();
-  }, [locale]); // DEPENDENCY ARRAY: ONLY `locale`.
-  // This effect runs only when the selected language changes.
-  // It's responsible for initiating the fetch for the new locale AND English.
+  }, [locale]);
 
   return (
     <AppContext.Provider
       value={{
-        // UI Context (kept as is)
         isSearchActive,
         openSearch,
         closeSearch,
@@ -212,12 +188,10 @@ export function AppWrapper({ children }) {
         isMobileMenuShow,
         openMobileMenu,
         closeMobileMenu,
-
-        // i18n Context
         t,
         locale,
         setLocale: changeLocale,
-        isLoadingTranslations, // Pass loading state
+        isLoadingTranslations,
       }}
     >
       {children}

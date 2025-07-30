@@ -48,7 +48,10 @@ export default function AboutSectionOne() {
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="single-counter-box">
                   {/* Google Reviews Link */}
-                  <Link href="/reviews/google" className="counter-link-overlay">
+                  <Link
+                    href="https://maps.app.goo.gl/HviTCkRTVs9mshmC9"
+                    className="counter-link-overlay"
+                  >
                     <p className="counter-number">
                       <span
                         className="purecounter"
@@ -68,17 +71,14 @@ export default function AboutSectionOne() {
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="single-counter-box">
                   {/* Mittanbud Reviews Link */}
-                  <Link
-                    href="/reviews/mittanbud"
-                    className="counter-link-overlay"
-                  >
+                  <Link href="/" className="counter-link-overlay">
                     <p className="counter-number">
                       <span
                         className="purecounter"
                         data-purecounter-duration="1"
                         data-purecounter-end="100"
                       >
-                        100
+                        20
                       </span>
                       <span className="rating-suffix">+</span>
                     </p>

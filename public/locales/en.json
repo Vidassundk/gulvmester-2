@@ -26,7 +26,8 @@
     "placeholder_sqm": "Square Meters (m²)",
     "placeholder_project_details": "About the project",
     "submit_button_value": "Send Message",
-    "submit_alert_placeholder": "Form submitted! (This is a placeholder)"
+    "submit_alert_placeholder": "Form submitted! (This is a placeholder)",
+    "consent_label": "I agree to be contacted using the information I have provided."
   },
   "counter_one": {
     "subtitle": "Your Vision, Our Expertise.",
