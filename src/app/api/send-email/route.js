@@ -13,7 +13,7 @@ export async function POST(req) {
 
     // Use Resend to send the email
     const { data, error } = await resend.emails.send({
-      from: "Contact Form <onboarding@resend.dev>",
+      from: "Website Inquiry <noreply@gulvmestere.no>",
       to: ["info@gulvmestere.no"],
       subject: `New Inquiry from ${name}`,
       react: (
