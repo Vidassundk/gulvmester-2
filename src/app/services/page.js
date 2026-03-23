@@ -10,6 +10,7 @@ import CounterSectionTwo from "@/components/sections/CounterSectionTwo";
 // import ClientsSectionOne from "@/components/sections/ClientsSectionOne"; // Commented out as in original
 
 import { useAppContext } from "@/context"; // Corrected import path
+import StartbankSectionOne from "@/components/sections/StartbankSectionOne";
 
 export default function Services() {
   const { t } = useAppContext(); // Get the translation function
@@ -33,7 +34,7 @@ export default function Services() {
       {/*-- Testimonial Section  --*/}
       {/* <TestimonialSectionThree /> */}
       {/*-- Counter Section --*/}
-      <CounterSectionTwo />
+      <StartbankSectionOne />
       {/*-- Pricing Section  --*/}
       {/* <PricingSectionOne /> */}
       {/*-- Clients Section --*/}

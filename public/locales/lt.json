@@ -40,6 +40,12 @@
     "years_of_experience": "Metų patirtis",
     "materials_available": "Turimos medžiagos"
   },
+  "startbank_section": {
+    "subtitle": "StartBANK bendradarbiavimas",
+    "title": "Achilles StartBANK mumis pasitiki",
+    "description": "Gulv Mestere AS yra pilnai registruotas tiekėjas Achilles StartBANK sistemoje.",
+    "logo_alt": "Achilles StartBANK logotipas"
+  },
   "scrolling_text": {
     "skilled_professionals": "Kvalifikuoti specialistai",
     "proven_track_record": "Patikrinta patirtis",

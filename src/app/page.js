@@ -12,7 +12,7 @@ import FaqSectionOne from "@/components/sections/FaqSectionOne";
 import ClientsSectionOne from "@/components/sections/ClientsSectionOne";
 import TeamSectionOne from "@/components/sections/TeamSectionOne";
 import BlogSectionOne from "@/components/sections/BlogSectionOne";
-import CounterSectionOne from "@/components/sections/CounterSectionOne";
+import StartbankSectionOne from "@/components/sections/StartbankSectionOne";
 import FeatureSectionTwo from "@/components/sections/FeatureSectionTwo";
 import ServiceSectionThree from "@/components/sections/ServiceSectionThree";
 import ContactSection from "@/components/sections/ContactSection";
@@ -23,14 +23,15 @@ export default function Home() {
       {/*-- Hero Area --*/}
       <HeroSectionOne />
       <ContactSection dark />
+      <StartbankSectionOne />
       {/* <FeatureSectionTwo /> */}
 
       {/* <FeatureSectionOne /> */}
 
-      <ServiceSectionThree />
-      <CounterSectionOne />
 
       <ScrollingTextSectionOne />
+      <ServiceSectionThree />
+
 
       <ProjectSectionOne />
 

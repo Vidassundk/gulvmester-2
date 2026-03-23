@@ -41,6 +41,12 @@
     "years_of_experience": "Års erfaring",
     "materials_available": "Tilgjengelige materialer"
   },
+  "startbank_section": {
+    "subtitle": "StartBANK-samarbeid",
+    "title": "Betrodd av Achilles StartBANK",
+    "description": "Gulv Mestere AS er en fullt registrert leverandør i Achilles StartBANK.",
+    "logo_alt": "Achilles StartBANK-logo"
+  },
   "scrolling_text": {
     "skilled_professionals": "Dyktige fagfolk",
     "proven_track_record": "Dokumentert erfaring",

@@ -41,6 +41,12 @@
     "years_of_experience": "Years of Experience",
     "materials_available": "Materials Available"
   },
+  "startbank_section": {
+    "subtitle": "StartBANK collaboration",
+    "title": "Trusted by Achilles StartBANK",
+    "description": "Gulv Mestere AS is a fully registered supplier in Achilles StartBANK.",
+    "logo_alt": "Achilles StartBANK logo"
+  },
   "scrolling_text": {
     "skilled_professionals": "Skilled Professionals",
     "proven_track_record": "Proven Track Record",
