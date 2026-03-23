@@ -13,7 +13,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.2.0",
     "metismenujs": "^1.4.0",
-    "next": "15.2.4",
+    "next": "15.2.8",
     "rc-progress": "^4.0.0",
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
