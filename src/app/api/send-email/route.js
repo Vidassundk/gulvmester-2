@@ -9,7 +9,7 @@ export async function POST(req) {
   try {
     // Parse the request body to get the form data
     const body = await req.json();
-    const { name, email, phone, sqm, projectDetails } = body;
+    const { name, email, phone, address, sqm, projectDetails } = body;
 
     // Use Resend to send the email
     const { data, error } = await resend.emails.send({
@@ -27,6 +27,9 @@ export async function POST(req) {
           </p>
           <p>
             <strong>Phone:</strong> {phone}
+          </p>
+          <p>
+            <strong>Address:</strong> {address}
           </p>
           <p>
             <strong>Estimated Square Meters:</strong> {sqm}

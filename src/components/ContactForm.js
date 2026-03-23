@@ -11,6 +11,7 @@ export default function ContactForm() {
     name: "",
     email: "",
     phone: "",
+    address: "",
     sqm: "",
     projectDetails: "",
   });
@@ -39,6 +40,7 @@ export default function ContactForm() {
           name: "",
           email: "",
           phone: "",
+          address: "",
           sqm: "",
           projectDetails: "",
         });
@@ -120,6 +122,17 @@ export default function ContactForm() {
               className="form-control"
               placeholder={t("contact_form.placeholder_phone")}
               value={formData.phone}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="col-lg-12 mb-3">
+            <input
+              type="text"
+              name="address"
+              className="form-control"
+              placeholder={t("contact_form.placeholder_address")}
+              value={formData.address}
               onChange={handleChange}
               required
             />

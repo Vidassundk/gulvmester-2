@@ -23,6 +23,7 @@
     "placeholder_name": "Navn",
     "placeholder_email": "E-post",
     "placeholder_phone": "Telefon",
+    "placeholder_address": "Adresse",
     "placeholder_sqm": "Kvadratmeter (m²)",
     "placeholder_project_details": "Om prosjektet",
     "submit_button_value": "Send melding",

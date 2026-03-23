@@ -23,6 +23,7 @@
     "placeholder_name": "Name",
     "placeholder_email": "Email",
     "placeholder_phone": "Phone",
+    "placeholder_address": "Address",
     "placeholder_sqm": "Square Meters (m²)",
     "placeholder_project_details": "About the project",
     "submit_button_value": "Send Message",
